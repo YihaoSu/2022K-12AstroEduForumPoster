@@ -10,7 +10,7 @@ st.success('蘇羿豪(Astrohackers in Taiwan社群)@2022 K-12天文教育論壇'
 
 qr = qrcode.QRCode()
 qr.add_data(
-    data='https://www.facebook.com/groups/1022708484514663'
+    data='https://yihaosu-2022k-12astroeduforumposter-poster-99k4yn.streamlitapp.com/'
 )
 qr_img = qr.make_image(fill='black', back_color='white')
 qr_img.save('./qrcode.png')
